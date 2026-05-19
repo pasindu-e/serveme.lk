@@ -12,4 +12,6 @@ export const router = createBrowserRouter([
       { path: '*', Component: NotFound }
     ],
   },
-]);
+], {
+  basename: '/serveme.lk/'
+});
